@@ -2,6 +2,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Link from "@mui/material/Link";
+import Alatoo from "../../assets/image.png";
 // import "../../styles/Footer.css";
 export default function Footer() {
   return (
@@ -24,7 +25,7 @@ export default function Footer() {
               <img
                 style={{ color: "white", textDecoration: "none" }}
                 width={"150px"}
-                src="http://alatoo.edu.kg/image;jsessionid=Puud2E_Bjetz%E2%80%A6host?img=image_logo_4x.png_565734559276200316.png"
+                src={Alatoo}
                 alt=""
               />
             </Link>
